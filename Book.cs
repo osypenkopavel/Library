@@ -15,10 +15,13 @@ public class Book
     {
         Book book1 = new Book(1992, "Mega Book", 9.99);
         Book book2 = new Book(2005, "Big Book", 29.99);
-        Author authors = new Author();
+
+        Author authors1 = new Author("Dickson");
+        Author authors2 = new Author("Jefferson");
+        
         Publisher publisher = new Publisher();
 
-        Console.WriteLine("There is a new author" + " " + authors.jackson 
+        Console.WriteLine("There is a new author" + " " + authors2 
             + " " + "with his new masterpiece" + " " 
             + book1.title +" "+ "from" +" "+publisher.cascade);
 
